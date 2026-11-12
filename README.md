@@ -132,7 +132,7 @@ Sheets: Transaction Overview, Assumptions, Historical Financials, Sources and Us
 - No interest income on cash, no PIK interest, fixed rates, annual periods with a year-end close.
 - A liquidity shortfall is flagged, not resolved: the model does not simulate default, waivers or equity cures.
 - Net IRR is a deal-level approximation (annual fee on invested equity, carry with full catch-up above a hurdle), not a fund waterfall.
-- Developed on Windows with Python 3.15; not yet run on macOS or Linux, or opened in LibreOffice or Google Sheets.
+- Developed on Windows with Python 3.15. CI runs the tests and export build on Ubuntu and Windows (Python 3.12 and 3.13); the dashboard has only been used interactively on Windows, macOS is untested, and the workbook has not been opened in LibreOffice or Google Sheets.
 
 ## Documentation
 
