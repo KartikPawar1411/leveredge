@@ -1,0 +1,74 @@
+{
+  "company": {
+    "name": "Meridian Flow Controls (SYNTHETIC DEMO)",
+    "industry": "Industrial flow-control components (illustrative)",
+    "description": "Fictional mid-market manufacturer and distributor of valves, actuators and aftermarket service parts. Every figure is invented for demonstration and does not describe any real company.",
+    "is_synthetic": true,
+    "ltm_revenue": 500.0,
+    "ltm_ebitda": 100.0,
+    "cash": 15.0,
+    "existing_debt": 180.0,
+    "net_working_capital": 60.0,
+    "historicals": [
+      {"year": "FY2023", "revenue": 430.0, "ebitda": 81.7, "da": 12.9, "capex": 15.5, "nwc": 53.8, "taxes": 13.6},
+      {"year": "FY2024", "revenue": 462.0, "ebitda": 90.1, "da": 13.9, "capex": 16.4, "nwc": 56.4, "taxes": 15.4},
+      {"year": "FY2025", "revenue": 500.0, "ebitda": 100.0, "da": 15.0, "capex": 17.5, "nwc": 60.0, "taxes": 17.6}
+    ]
+  },
+  "transaction": {
+    "entry_multiple": 10.0,
+    "transaction_fee_pct": 0.02,
+    "financing_fee_pct": 0.025,
+    "min_cash": 10.0,
+    "use_excess_cash": true,
+    "rollover_pct": 0.0,
+    "min_equity_contribution_pct": 0.25,
+    "close_date": "2025-12-31"
+  },
+  "operating": {
+    "mode": "driver",
+    "revenue_growth": [0.08, 0.07, 0.06, 0.05, 0.05, 0.04, 0.04],
+    "ebitda_margin": [0.205, 0.21, 0.215, 0.22, 0.22, 0.22, 0.22],
+    "cogs_pct": [0.60, 0.598, 0.596, 0.594, 0.594, 0.594, 0.594],
+    "sga_pct": [0.175, 0.172, 0.169, 0.166, 0.166, 0.166, 0.166],
+    "other_opex": 10.0,
+    "da_pct_revenue": 0.03,
+    "capex_pct_revenue": 0.035,
+    "nwc_pct_revenue": 0.12,
+    "tax_rate": 0.25
+  },
+  "debt": {
+    "senior_leverage": 4.0,
+    "senior_rate": 0.085,
+    "senior_amort_pct": 0.025,
+    "senior_maturity": 7,
+    "sub_leverage": 1.5,
+    "sub_rate": 0.12,
+    "sub_amort_pct": 0.0,
+    "sub_maturity": 8,
+    "sub_prepayable": false,
+    "revolver_commitment": 75.0,
+    "revolver_draw_at_close": 0.0,
+    "revolver_rate": 0.08,
+    "revolver_undrawn_fee": 0.005,
+    "cash_sweep_pct": 1.0,
+    "max_total_leverage": 6.5,
+    "interest_method": "beginning",
+    "covenant_max_leverage": 6.75,
+    "covenant_min_interest_coverage": 1.75
+  },
+  "exit": {
+    "exit_year": 5,
+    "exit_multiple": 10.0,
+    "exit_fee_pct": 0.015,
+    "mip_pct": 0.0
+  },
+  "advanced": {
+    "recap_year": null,
+    "recap_turns": 0.0,
+    "model_net_returns": false,
+    "mgmt_fee_pct": 0.02,
+    "carry_pct": 0.2,
+    "hurdle_rate": 0.08
+  }
+}

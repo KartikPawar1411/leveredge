@@ -1,0 +1,17 @@
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 130
+target-version = "py312"
+exclude = [".venv", "output"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["B008", "B023", "E731", "E501"]  # E501: long report-prose strings
+
+[tool.ruff.lint.per-file-ignores]
+"app/main.py" = ["E402"]
+"scripts/*" = ["E402"]
